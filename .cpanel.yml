@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pstuianc/public_html/portfolio/hasnain/
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
+    - /bin/cp index.html forms $DEPLOYPATH
+    - /bin/cp portfolio-details.html forms $DEPLOYPATH
